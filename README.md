@@ -66,6 +66,7 @@ Once you see that your VM is validated. Review your VM, make sure everything loo
 </p>
 <p>
 Congratulations! At this point, we have completed the first two major steps of this lab by creating and deploying a Resource Group and Virtual Machine within Azure that we will subsequently install, configure, and deploy osTicket inside of!
+<h2>Step 3: Access VM using Remote Desktop Connection: </h2>
 </p>
 <br /><p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
