@@ -28,27 +28,49 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://github.com/user-attachments/assets/2167d261-c2fd-4211-96ae-76be7f8c904b" height="60%" width="80%" alt="RG Create 1a"/>
 <p>Type, "Resource Group" in the Search bar, or navigate to the "Resource Group" section of Azure and click "Create".
 <img src="https://github.com/user-attachments/assets/b8828d30-a118-4a5e-ad33-bb64bbff2ef6" height="80%" width="80%" alt="RG Create 1b"/>
-<p> You will then be prompted to name the Resource Group, and Select the region of that Resource group.<br /> We will name the resource group, "osTicket" and the region that it is in will be local to you.<br /> I am selecting <strong>(US) East US 2</strong> but you can choose the region local to you.</p>
-<p>Following this, you will be prompted to review your new Resource Group prior to creating. Make sure that it is named properly, and in the correct region, and click "Create" once more, confirming the process.</p>
+
+  
+You will then be prompted to name the Resource Group, and Select the region of that Resource group. 
+  
+- We will name the resource group, "osTicket"
+- Make the region that it is in local to you. I am selecting <strong>(US) East US 2</strong> but you can choose the region local to you.
+
+Following this, you will be prompted to review your new Resource Group. 
+  - Make sure that it is named properly, and in the correct region, and click "Create" once more, confirming the process.
+
+
 <p>Congratulations! You have sucessfully set up the Resource Group necessary for installing osTicket on a Virtual Machine in Azure. To proceed to the next step, navigate back to the home page. </p>
 
 
 <h2>Step 2: Creating your Virtual Machine:</h2>
-<p>Type, "Virtual Machine" in the Search bar, or navigate to the "Virtual Machine" section of Azure and click "Create".<br>Select the top option "Virtual Machine".<br/></p>
   <img src="https://github.com/user-attachments/assets/cb002a5d-5533-4af2-ab18-ec50e63577dd" height="80%" width="80%" alt="VM Create 1"/>
-<p> You will be prompted to select your resource group, name your Virtual Machine, and select the region of the machine. <br> Select the Resource Group "osTicket" you just created.<br/> 
-<br> For the sake of this lab, we will name our Virtual Machine "osTicket-VM"<br/>
-<br> Keep the Availability, Zone, and Security Options the pre-selected default options.
-
-
-<p>
+  <p>Type, "Virtual Machine" in the Search bar, or navigate to the "Virtual Machine" section of Azure and click "Create".<br>Select the top option "Virtual Machine".<br/></p>
+  <p>
 <img src="https://github.com/user-attachments/assets/86b772bf-dced-470d-9ce4-dc1f68fb0013" height="80%" width="80%" alt="VM Create 2"/>
 </p>
-<p> Moving down along: <br>Select the image the VM will use. For this lab we are looking to use a <Strong>Windows 10 pro, version 22H2 - x64 Gen2 </Strong><br/><br>For size, locate the <strong>Standard_D2s_v3 - 2vCPU, 8 Gib  </strong> <br> Do not worry about the VM Architecture, or checking the other two boxes (as seen below)<br/>
 
-<p>
+You will be prompted to select your resource group, name your Virtual Machine, and select the region of the machine. 
+
+ - Select the Resource Group "osTicket" you just created.
+  
+ - For the sake of this lab, we will name our Virtual Machine "osTicket-VM"
+
+ - Make sure that the zone you select is the same zone as your resource group. For me that is (US) East US 2
+
+ - Keep the Availability, Zone, and Security Options the pre-selected default options.
+
+<p> Moving down along: 
+  <p>
 <img src="https://github.com/user-attachments/assets/af275a44-b058-43ee-af50-0d4a6068d984" height="80%" width="80%" alt="VM Create 3"/>
 </p>
+
+ - Select the image the VM will use. For this lab we are looking to use a <Strong>Windows 10 pro, version 22H2 - x64 Gen2 </Strong><br/><br>
+ 
+ - For size, locate the <strong>Standard_D2s_v3 - 2vCPU, 8 Gib  </strong>
+ 
+ - Do not worry about the VM Architecture, or checking the other two boxes (as seen below)<br/>
+
+
 <p> Continuing down, create your Administrator username and password for this VM.<br>For the sake of simplicity, I have picked a username of "labuser" with a password of "Cyberlab123!"<br/>
 <p>You may pick a username and password that suits your choosing, as long as you keep note of the same!</p>
 <p> Leave the Inbound Port Rule Section alone.</p>
