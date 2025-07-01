@@ -43,8 +43,9 @@ Following this, you will be prompted to review your new Resource Group.
   - Make sure that it is named properly and in the correct region.
   - Click "Create" once more, confirming the process.
 
-
-<p>Congratulations! You have sucessfully set up the Resource Group necessary for installing osTicket on a Virtual Machine in Azure. To proceed to the next step, navigate back to the home page. </p>
+Congratulations!  
+ You have sucessfully set up the Resource Group necessary for installing osTicket on a Virtual Machine in Azure.  
+ To proceed to the next step, navigate back to the home page.
 
 
 <h2>Step 2: Creating your Virtual Machine</h2>
@@ -98,7 +99,8 @@ You will be prompted to select your Resource Group, name your Virtual Machine, a
 - Once you see that your VM is validated, review your VM, make sure everything looks correct in the Subscription, Resource Group, VM-Name, and Region section.
 - Following your double check of information on the VM you can click create one more time to initialize the deployment of your VM!
 
-Congratulations! At this point, we have completed the first two major steps of this lab by creating and deploying a Resource Group and Virtual Machine within Azure that we will subsequently install, configure, and deploy osTicket inside of!
+Congratulations!  
+At this point, we have completed the first two major steps of this lab by creating and deploying a Resource Group and Virtual Machine within Azure that we will subsequently install, configure, and deploy osTicket inside of!
 
 
 <h2>Step 3: Access VM using Remote Desktop Connection: </h2>
@@ -109,18 +111,18 @@ Congratulations! At this point, we have completed the first two major steps of t
 - Obtain the Public IP Address of your VM from its home page within Azure.
 - Copy the IP Address to your clipboard
 
-<img src="https://github.com/user-attachments/assets/73f3f209-a75f-4ed4-a9a0-04175d1ae723" height="80%" width="80%" alt="RDP"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br /><p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br /><p>
+<img src="https://github.com/user-attachments/assets/73f3f209-a75f-4ed4-a9a0-04175d1ae723" height="40%" width="40%" alt="RDP"/>
+
+- Where it says, "Computer" paste the public IP address of your VM and click, "Connect".
+
+<img src="https://github.com/user-attachments/assets/a6b90641-cf35-4329-9a71-cba66416997a" height="40%" width="40%" alt="login"/>
+
+- Enter the Administrator Account login information you created earlier while setting up your VM and hit OK!
+
+ <img src="https://github.com/user-attachments/assets/0fb5c892-4c05-43db-bf6e-054e6c0bf8d6" height="40%" width="40%" alt="Cert Warning"/>
+
+- If you are subsequently prompted with a certificate warning, it is OK to bypass it and say "Yes" to connect! 
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
