@@ -86,11 +86,10 @@ You will be prompted to select your Resource Group, name your Virtual Machine, a
 <p></p><img src="https://github.com/user-attachments/assets/e4f02ad8-9258-490f-900a-e113cf07741a" height="80%" width="80%" alt="VM Create 4"/><p/>
 
 - Create your Administrator username and password for this VM.
-   - For this lab, I have picked a username of "labuser" with a password of "Cyberlab123!"
-     
+   - For this lab, I have picked a username of "labuser" with a password of "Cyberlab123!" 
 - Leave the Inbound Port Rule Section alone.
-  
-- Make sure to check the licensing box, and click Review + create!
+- Check the licensing box
+- You do **not** have to click Next: Disks, simply click Review + create!
 
 <p>
 <img src="https://github.com/user-attachments/assets/8df602eb-553e-4076-abed-f844aea16c5d" height="80%" width="80%" alt="VM Create Final"/>
@@ -121,35 +120,52 @@ At this point, we have completed the first two major steps of this lab by creati
 
  <img src="https://github.com/user-attachments/assets/0fb5c892-4c05-43db-bf6e-054e6c0bf8d6" height="40%" width="40%" alt="Cert Warning"/>
 
-- If you are subsequently prompted with a certificate warning, it is OK to bypass it and say "Yes" to connect! 
+- If you are subsequently prompted with a certificate warning, it is OK to bypass it and say "Yes" to connect!
+- While your VM is spinning up for the first time, give yourself a pat on the back, and get some coffee or water, because now the fun really begins!
+
+## Step 4: Downloading osTicket Dependencies 
+
+<img src="https://github.com/user-attachments/assets/dc11857c-95b1-4c4c-ae11-f5ae6942dfd8" height="100%" width="100%" alt="Install ZIP"/>
+
+- Once you've gotten into your VM, copy the osTicket Installation Files link below, and paste it into the browser. This will take you to the zip file containing what we need to install osTicket to the VM.
+  - [osTicket Installation Files](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)
+  - Click "Download anyway"
+
+<img src= "https://github.com/user-attachments/assets/032397b7-52ac-427b-a4c5-6f2aa8fc9853" height="60%" width="70%" alt="ZIP"/>
+
+- Navigate to the "Downloads" section of your file explorer and locate the osTicket-Installation-Files zip file.
+- Left Click the file and drag it to your desktop.
+ 
+<img src="https://github.com/user-attachments/assets/fc2a9720-dbed-4487-8a5a-88aa4e6f65b6" height="50%" width="50%" alt="Extract All"/>
+
+- Right click on the osTicket-Installation-Files ZIP file that is now on your desktop and click on "Extract All".
+
+<img src="https://github.com/user-attachments/assets/f3ae48a9-14b3-4d54-88b5-e34aaf824df7" height="50%" width="50%" alt="Extract dat boi"/>
+
+- Simply click extract from here. Your unzipped files will then appear on your desktop.
+
+<img src="https://github.com/user-attachments/assets/37db4dbb-131e-4e64-8561-97946735a1e2" height="60%" width="60%" alt="Look at that thang"/>
+
+- Note that these are the files we are going to be working with and in. NOT the zip file.
+  - Feel free to move the folder anywhere on the desktop that best suits you.
+
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br /><p>
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br/><p>
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>  
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br /><p>
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br /><p>
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
