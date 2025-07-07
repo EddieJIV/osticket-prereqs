@@ -224,15 +224,70 @@ At this point, we have completed the first two major steps of this lab by creati
 - This is what your extract Folder should look like PRIOR TO EXTRACTING.
 - Once it looks like this, hit "Extract"
 
-<img src="https://github.com/user-attachments/assets/a0dd20fd-c0ff-4e31-8db4-875cd6e99526" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/a0dd20fd-c0ff-4e31-8db4-875cd6e99526" height="auto" width="auto" alt="NEW PHP"/>
 
 - This is what your newly created PHP folder should now look like post extraction.
 
 ## Step 9: Install VC_redist.x86
 
-Going back into your osTicket-Installation-Files folder, install VC_redist.x86.exe
+<img src="https://github.com/user-attachments/assets/e3fb652b-63f0-4002-8306-ba7ac1e9cb05" height="auto" width="auto" alt="Step 9"/>
 
+- Going back into your osTicket-Installation-Files folder, install VC_redist.x86.exe
+- Once you double click, agree to the terms and click Install.
 
+## Step 10: Install, "mysql-5.5.62-win32" database
+
+<img src="https://github.com/user-attachments/assets/cbaee797-2eb9-4929-83d6-be3aa4f245d3" height="auto" width="auto" alt="Step 10"/> 
+
+- Double click the file folder named, "mysql-5.5.62-win32"
+- Hit "Next"
+
+<img src="https://github.com/user-attachments/assets/15649a9c-9fe5-497b-987c-ef478b724947" height="auto" width="auto" alt="10.2"/>
+
+- Accept the End-User License Agreement by checking the box and hit "Next"
+
+<img src="https://github.com/user-attachments/assets/306361b5-186a-42fb-865e-c2efd15bee65" height="auto" width="auto" alt="10.3"/>
+
+- For our installation, we want to do a "Typical Installation"
+- So, make sure Typical is selected and click, "Next"
+- Once you are brought to the next page, click on, "Install".
+
+<img src="https://github.com/user-attachments/assets/e0c9bbd1-4874-4952-9865-de4ed309b323" height="auto" width="auto" alt="10.4"/>
+
+- Make sure that the box to launch the MySQL Instance Configuration Wizard is checked.
+- Click on Finish 
+
+<img src="https://github.com/user-attachments/assets/1a7df3c5-c7bb-46fd-9164-bbe392f511cb" height="auto" width="auto" alt="10.5"/>
+
+- From here, simply click "Next >"
+
+<img src="https://github.com/user-attachments/assets/2cdce0f9-10a2-46d7-83e0-37ff0a2ec50a" height="auto" width="auto" alt="10.6"/>
+
+- From here, we want to select "Standard Configuration" and click "Next >".
+
+<img src="https://github.com/user-attachments/assets/8d206d2b-80ff-4904-83d7-234c56d332fe" height="auto" width="auto" alt="10.7"/>
+
+- Leave this screen alone, and hit "Next >"
+
+  
+⚠️ Please be advised, the next step is very important ⚠️ 
+---
+
+Once you are prompted with the following screen:
+
+<img src="https://github.com/user-attachments/assets/6e7f455c-f16c-427c-a32a-06c187a92888" height="auto" width="auto" alt="IMPORTANT 10.8"/>
+
+ - Just type the word, "ROOT" in both the boxes.
+ - It may sound simple, but MAKE SURE you type in ROOT in all capital letters in both boxes.
+ - Later on, the username will be root but the password is ROOT.
+    - This would be really bad in the real world but we're keeping simple for this project.
+ - Click Next, Execute on the next screen, and then Finish. 
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
@@ -249,7 +304,3 @@ Going back into your osTicket-Installation-Files folder, install VC_redist.x86.e
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
-
-
-
-
