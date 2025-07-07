@@ -166,17 +166,90 @@ At this point, we have completed the first two major steps of this lab by creati
 
  - We need to install CGI, a dependency that OSticket needs for part of the web server, within World Wide Web Services
  - Click "OK" once you've navigated to World Wide Web Services > Application Development Features > CGI and Check-marked the file folder named, "CGI"
+   - It will now install the web server. Give it a moment to do so.
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ ## Step 6: Install PHP Manager
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/e47f81b1-6f38-4ca6-91ac-dc7b4b10ef28" height="auto" width="auto" alt="PHP Install Location"/>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+  - Agree to the licensing terms and install the program.
+ 
+<img src="https://github.com/user-attachments/assets/eb707506-fcea-4497-9663-588a1371d998" height="auto" width="auto" alt="PHP Installed"/>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- Once the installation is complete, you will see this screen. Simply hit close.
+- Be advised: the next step is going to take place from within out osTicket installation folder as well.
+ 
+## Step 7: Install Rewrite Module
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://github.com/user-attachments/assets/f0166aa0-73eb-4a5a-a48d-073846943de9" height="auto" width="auto" alt="Rewrite Module Location"/>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- Next, we are going to install the Rewrite Module.
+- Double click the file to be brought to the install wizard
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/5ee12ebc-32af-460f-99f8-b2b67e8091a4" height="auto" width="auto" alt="Rewrite install wizard"/>
+
+- Accept the terms in the License Agreement
+- Click Install
+- Hit Finish upon completion of the same.
+
+## Step 8: Create PHP Directory
+
+<img src="https://github.com/user-attachments/assets/40c775f7-e1f9-49c8-8c55-b59a6bea0f25" height="auto" width="auto" alt="PHP Directory set-up"/>
+
+- Right click on the file explorer on your taskbar and open a new file explorer page for this step.
+  - Navigate to This PC > Windows C: in your new file explorer page
+
+<img src="https://github.com/user-attachments/assets/216a32ac-10d3-4666-b8a5-db23b7cb31c2" height="auto" width="auto" alt="New Folder in C: drive"/>
+
+- From within the C: drive create a new folder
+- The easiest way to do so would be to simply right click from within the C: drive, locate the "New" tab and click on "Folder".
+
+<img src="https://github.com/user-attachments/assets/8cce1614-9f7d-425b-ace4-83c019d5d032" height="auto" width="auto" alt="PHP"/>
+
+- Name the new file "PHP". It should look like this in your C: Drive.
+
+<img src="https://github.com/user-attachments/assets/9833d4fa-fc48-41fc-afe9-e0086616458f" height="auto" width="auto" alt="Extract to new folder"/>
+
+- From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into your new “C:\PHP” folder.
+- To do so, simply right click the ZIP file named php-7.3.8-nts-Win32-VC15-x86.zip, and Click "Extract All..."
+
+<img src="https://github.com/user-attachments/assets/f7e98281-7bdf-4438-9e3a-1234812d6b50" height="auto" width="auto" alt="Browse to"/>
+
+- Once you click "Extract All..." you will be prompted to browse to a folder or click extract.
+- From here, we want to click browse, then navigate to Windows(C:) > PHP, and click, "Select Folder".
+
+<img src="https://github.com/user-attachments/assets/c21340d8-2778-4d3c-a373-d221870bae4b" height="auto" width="auto" alt="Extract Location"/>
+
+- This is what your extract Folder should look like PRIOR TO EXTRACTING.
+- Once it looks like this, hit "Extract"
+
+<img src="https://github.com/user-attachments/assets/a0dd20fd-c0ff-4e31-8db4-875cd6e99526" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+- This is what your newly created PHP folder should now look like post extraction.
+
+## Step 9: Install VC_redist.x86
+
+Going back into your osTicket-Installation-Files folder, install VC_redist.x86.exe
+
+
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
+
+
+
+
