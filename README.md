@@ -127,7 +127,7 @@ At this point, we have completed the first two major steps of this lab by creati
 
 <img src="https://github.com/user-attachments/assets/dc11857c-95b1-4c4c-ae11-f5ae6942dfd8" height="auto" width="auto" alt="Install ZIP"/>
 
-- Once you've gotten into your VM, copy the osTicket Installation Files link below, and paste it into the browser. This will take you to the zip file containing what we need to install osTicket to the VM.
+- Once you've gotten into your VM, copy the osTicket Installation Files link below, and paste it into the Microsoft Edge browser. This will take you to the zip file containing what we need to install osTicket to the VM.
   - [osTicket Installation Files](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)
   - Click "Download anyway"
 
@@ -157,9 +157,15 @@ At this point, we have completed the first two major steps of this lab by creati
 - Then, click on, "Programs and Features"
 - Once you've navigated to Control Panel > Programs > Programs and Features, Click on "Turn Windows features on or off"
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/e03dfba5-8887-4e65-a2b7-67f276cbda60" height="auto" width="auto" alt="IIS Enabled"/>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- Once you've clicked on "Turn Windows features on or off" within Programs and Features, find Internet Information Services
+  - Check the box so it is black, as seen above, and click the box to the left of that to expand it.  
+
+<img src="https://github.com/user-attachments/assets/ed3fae94-4606-4bdc-ad0b-fdee0ee6e459" height="auto" width="auto" alt="CGI"/>
+
+ - We need to install CGI, a dependency that OSticket needs for part of the web server, within World Wide Web Services
+ - Click "OK" once you've navigated to World Wide Web Services > Application Development Features > CGI and Check-marked the file folder named, "CGI"
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
