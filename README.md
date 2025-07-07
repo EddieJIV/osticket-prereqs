@@ -281,9 +281,16 @@ Once you are prompted with the following screen:
  - It may sound simple, but MAKE SURE you type in ROOT in all capital letters in both boxes.
  - Later on, the username will be root but the password is ROOT.
     - This would be really bad in the real world but we're keeping simple for this project.
- - Click Next, Execute on the next screen, and then Finish. 
+ - Click Next, Execute on the next screen, and then Finish.
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+## Step 11: Internet Information Services (IIS) Manager Configuration
+
+<img src="https://github.com/user-attachments/assets/cbcf84ee-00de-4eb8-92bd-2c34d7401c3e" height="auto" width="auto" alt="IIS Location"/>
+
+- Next, we are going to open up IIS as an Administrator
+- It is important to be aware that we are running it is as an Admin and NOT just clicking open.
+- To get to IIS manager we can just type "iis" into the search bar and it will appear.
+- Again, remember to click, "Run as administrator".
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
