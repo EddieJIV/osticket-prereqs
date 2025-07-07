@@ -140,18 +140,18 @@ At this point, we have completed the first two major steps of this lab by creati
 
 - Right click on the osTicket-Installation-Files ZIP file that is now on your desktop and click on "Extract All".
 
-<img src="https://github.com/user-attachments/assets/f3ae48a9-14b3-4d54-88b5-e34aaf824df7" height="50%" width="50%" alt="Extract dat boi"/>
+<img src="https://github.com/user-attachments/assets/f3ae48a9-14b3-4d54-88b5-e34aaf824df7" height="50%" width="50%" alt="Extract ZIP"/>
 
 - Simply click extract from here. Your unzipped files will then appear on your desktop.
 
-<img src="https://github.com/user-attachments/assets/37db4dbb-131e-4e64-8561-97946735a1e2" height="60%" width="60%" alt="Look at that thang"/>
+<img src="https://github.com/user-attachments/assets/37db4dbb-131e-4e64-8561-97946735a1e2" height="60%" width="60%" alt="Unzipped install file"/>
 
 - Note that these are the files we are going to be working with and in. NOT the zip file.
   - Feel free to move the folder anywhere on the desktop that best suits you.
 
 ## Step 5: Enable IIS (Internet Information Services)
 
-<img src="https://github.com/user-attachments/assets/335e3662-96a3-489a-8499-45572049643c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/335e3662-96a3-489a-8499-45572049643c" height="80%" width="80%" alt="Control Panel 1"/>
 
 - Open up Control Panel and Click on Programs
 
