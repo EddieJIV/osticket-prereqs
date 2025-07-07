@@ -149,8 +149,11 @@ At this point, we have completed the first two major steps of this lab by creati
 - Note that these are the files we are going to be working with and in. NOT the zip file.
   - Feel free to move the folder anywhere on the desktop that best suits you.
 
+## Step 5: Enable IIS (Internet Information Services)
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/335e3662-96a3-489a-8499-45572049643c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- Open up Control Panel and Click on Programs
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
