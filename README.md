@@ -288,11 +288,148 @@ Once you are prompted with the following screen:
 <img src="https://github.com/user-attachments/assets/cbcf84ee-00de-4eb8-92bd-2c34d7401c3e" height="auto" width="auto" alt="IIS Location"/>
 
 - Next, we are going to open up IIS as an Administrator
-- It is important to be aware that we are running it is as an Admin and NOT just clicking open.
+- It is important to be aware that we are running it as an administrator and NOT just clicking open.
 - To get to IIS manager we can just type "iis" into the search bar and it will appear.
 - Again, remember to click, "Run as administrator".
 
+<img src="https://github.com/user-attachments/assets/bc254cd7-d2bc-4875-b712-d66e2af8f1e1" height="auto" width="auto" alt="Open PHP Mgr"/>
+
+- Upon opening IIS manager we are going to double click PHP Manager to open the same
+- Once the PHP manager is opened, find the text that will read, "Register new PHP".
+
+<img src="https://github.com/user-attachments/assets/9303ef13-4e29-41b9-866c-71e5de948f15" height="auto" width="auto" alt="Registering New PHP"/>
+
+- Once you click register new PHP you will be prompted to provide a path to the executeable PHP file.
+- Click on the icon with the three dots in the tab that has subsequently popped up.
+- Now is when we will go back to our new file that we made earlier located on the C: Drive named PHP.
+
+<img src="https://github.com/user-attachments/assets/23414bf9-acf1-4738-9f01-3c399f1d7368" height="auto" width="auto" alt="find the exe"/>
+
+- Locate that actual executeable file for PHP and double click on the same.
+
+<img src="https://github.com/user-attachments/assets/efd24de7-9978-442d-8622-e6e7f165e2f9" height="auto" width="auto" alt="Registering New PHP version selected"/> 
+
+- This is what your pop up tab should now look like, and we will just click on OK.
+- Now, we need to reload IIS, so in other words, stop and restart the web server.
+
+<img src="https://github.com/user-attachments/assets/831161d6-e3c3-400d-8961-055ca4a15526" height="auto" width="auto" alt="Stop Server"/>
+
+- In order to do so we are going to simply right click on the osTicket-VM and where it says stop, clik on Stop.
+- Wait a moment...
+
+<img src="https://github.com/user-attachments/assets/4ea2fa49-456a-4293-8d5b-b03395666a20" height="auto" width="auto" alt="Start Server"/>
+
+- Rick click on the osTicket-VM again and you will now notice where it was greyed out before, you can now click on "Start"
+
+## Step 12: Installing osTicket-v1.15.8 
+
+- Going back into our osTicket-Installation-Files foler:
+
+<img src="https://github.com/user-attachments/assets/7210de06-06c2-4aaf-825b-a3f46f18754e" height="auto" width="auto" alt="unzip install file"/>
+
+- From the osTicket-Installation-Files on our desktop, right click and click on, "Extract All..."
+
+<img src="https://github.com/user-attachments/assets/8e29babf-d3e7-4e6a-85d1-988b5d0282e1" height="auto" width="auto" alt="Unzip location"/>
+
+- From here you can just go ahead and click on "Extract"
+  - Make sure the, "Show extracted files when completed" check box is click as we will be using it for the next step.
+  - We are extracting the files straight into the folder so you will now just have an unzipped version of osTicket-v1.15.8 within your installation files
+- Give it a moment because there are alot of files to copy.
+- Keep the newly extracted files up on your screen.
+- But, also open up a new file explorer page next to it and navigate to the following:
+   - This PC > Windows(C:) > inetpub > wwwroot
+
+<img src="https://github.com/user-attachments/assets/0c20084b-e599-4692-8930-76f79104062e" height="auto" width="auto" alt="Transfer prep"/>
+
+- Side-by-side your file exploer pages should look like this.
+- From here, we are going to left click and drag the folder named "upload" ino the wwwroot file
+
+
+<img src="https://github.com/user-attachments/assets/339e4c70-72fd-4e13-8170-ad3c080d5e95" height="auto" width="auto" alt="upload transfer"/>
+
+- Now that the "upload" folder is moved to the wwwroot file we are going to right click and rename the folder to "osTicket"
+- ⚠️Please note that when you rename the upload foler in the wwwroot folder it MUST be named exactly osTicket⚠️
+
+<img src="https://github.com/user-attachments/assets/8fae250a-058e-4b0f-b042-9089464ab1c9" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+- It is case sensitive so make sure it looks exactly as it does in the above image within the wwwroot file.
+- We now need to go back into IIS as an adminstartor and reload the IIS (Stop and Start the Server, again)
+- If it not still open in your taskbar refer to the beginning of Step 11 to see how to get back to the IIS manager. 
+  <img src="https://github.com/user-attachments/assets/831161d6-e3c3-400d-8961-055ca4a15526" height="auto" width="auto" alt="Stop Server"/>
+
+- In order to do so we are going to simply right click on the osTicket-VM and where it says stop, clik on Stop.
+- Wait a moment...
+
+<img src="https://github.com/user-attachments/assets/4ea2fa49-456a-4293-8d5b-b03395666a20" height="auto" width="auto" alt="Start Server"/>
+
+- Rick click on the osTicket-VM again and you will now notice where it was greyed out before, you can now click on "Start". 
+
+<img src="https://github.com/user-attachments/assets/7895ccd9-e926-48cb-a546-e8fceb54822f" height="auto" width="auto" alt="osTicket home via IIS"/>
+
+- Once you have reloaded the IIS server, navigate to osTicket Home back clicking the dropdown tab on "Sites", then again on, "Default Web Site"
+- From here, simply click on the osTicket folder and you will be brought to its home page as seen above.
+  
+<img src="https://github.com/user-attachments/assets/f72c04e7-7117-4f36-b0e8-851fbbc9684f" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
+
+- From here we are going to attempt to browse to the osTicket installer webpage.
+- In order to do so, we are going to click on the link that is on the right, click “Browse *:80”
+- The following web browser should appear on your screen:
+
+<img src="https://github.com/user-attachments/assets/ce7eae72-71d3-4c4c-a3dc-74956e94b763" height="auto" width="auto" alt="OsTicket web browswer & IIS manager"/>
+
+- If the steps have been followed properly thus far then when you click on, "Browse *:80" this is what you will be directed to on your web browswer.
+- Note that below the Prerequisites some of the boxes are not checked and are red X's.
+- We are going to go back into our osTicket Home wothin the IIS manager (as seen on the right hand side of the window) to enable some of these features.
+
+<img src="https://github.com/user-attachments/assets/02baafbf-0252-41dd-8f06-4313b3aef930" height="auto" width="auto" alt="Click PHP"/>
+
+- From the osTicket Home page within the IIS manager, click on PHP manager.
+
+<img src="https://github.com/user-attachments/assets/8453d4df-691c-4435-8bf5-d79fe9255c01" height="auto" width="auto" alt="Extension link"/> 
+
+- From here, click on, "Enable or disable an extension".
+
+<img src="https://github.com/user-attachments/assets/54ef50fb-ad84-4c03-acc0-1e8450499b6d" height="auto" width="auto" alt="Extension list"/>
+
+- You will be brought to a screen that looks like the above image.
+- From here, we need to enable the following extensions that are currently disabled.
+   - Enable: php_imap.dll
+   - Enable: php_intl.dll
+   - Enable: php_opcache.dll
+- In order to do so, locate the above extensions that are currently disabled, right click on them and hit "Enable"
+
+<img src="https://github.com/user-attachments/assets/8963fba3-f99c-4b04-b269-62c93958443f" height="auto" width="auto" alt="Enable"/>
+
+- This is what it will look like when you locate one of the disbaled extensions and right click on it prior to enabling it.
+
+<img src="https://github.com/user-attachments/assets/c23575a9-8bda-45c7-a3f4-d19c84fc3d6c" height="auto" width="auto" alt="all 3 enabled"/> 
+
+- Upon locating and enabling all three of these extensions they should appear as they do in the able image as "Enabled".
+
+<img src="https://github.com/user-attachments/assets/d531b8fc-23f1-4494-9d8b-c18506de9ac4" height="auto" width="auto" alt="Refresh Installer"/>
+
+- Additionally, refresh your osTicket Installer web browser and if you enabled the proper extensions there should only be two red X's below the Prerequisites heading.
+
+<img src="https://github.com/user-attachments/assets/b9fb76e9-4654-4fab-96f2-6d5fd873939f" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+- For the next step, open file explorer, and naviagte to, Windows C: > inetpub > wwwroot > osTicket > include
+
+- ⚠️ Please be advised, the following step involves renaming another folder and it must be named exactly as shown ⚠️
+
+
+<img src="https://github.com/user-attachments/assets/de4f7097-68c2-4768-b1c0-621cd5519bb2" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
+
+- Naviage to the PHP file named
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
@@ -304,7 +441,17 @@ Once you are prompted with the following screen:
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
