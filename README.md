@@ -456,23 +456,108 @@ Once you are prompted with the following screen:
 - After you've typed "everyone" into the text box, click on "Check Names" first, then click OK second.
   - It does not show it in the image above but after you click Check Names "everyone" should get underlined and have a capital E. That is how you know it worked.
 
-<img src="https://github.com/user-attachments/assets/e6c4f24e-66c3-423a-b63d-7fbf2a4b277e" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/e6c4f24e-66c3-423a-b63d-7fbf2a4b277e" height="auto" width="auto" alt="FULL CONTROLLL"/>
 
 - Now, check the box marked "Full Control" and click OK
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/36a5af7c-e925-42ac-ac6c-5f82e1a83105" height="auto" width="auto" alt="APPLYOKOK"/>
+
+- Now the Permissions tab of the Advanced Security setting should look like this.
+- Click Apply
+- Then click OK
+- Click OK once more on the smaller properties tab.
+- Nice! Now its time to go back to the osTicket configuration in our browser
+---
+<img src="https://github.com/user-attachments/assets/024e2200-5c47-4a2e-ace2-f322f5c0bf4b" height="auto" width="auto" alt="osTicket Setup"/>
+
+- Click on Continue >> on the bottom of the page of the osTicket installer on your internet browser
+- Note that we are only going to configure the first two Sections that appear upon hitting continue
+  - The System Settings & the Admin user
+  
+<img src="https://github.com/user-attachments/assets/1e903c10-bef3-4fad-a3fd-dbe6643a1c66" height="auto" width="auto" alt="Basic info"/> 
+
+- Enter your information as seen above.
+- Note that the email address for the default email and Admin user must be different.
+  
+## ⚠️ For the Admin User it is important that you keep note of the username and password:
+
+- Just make it adminuser for the username, and Password1 for the password.
+- We will need it for the subsequent labs so make note of it and save it for later!
+- Prior to entering the Database settings we need to actually create a database for osTicket to use still.
+- Take a breath, grab some water, we're almost there! (P.S. - You rock!)
+---
+
+<img src="https://github.com/user-attachments/assets/5144160e-2f75-4b38-8e3c-ec6a40249163" height="auto" width="auto" alt="Heidi time"/>
+
+- Reopen your os Ticket installation file folder that is on your desktop (as seen above)
+
+<img src="https://github.com/user-attachments/assets/1b06cad1-a6af-4f3c-95ea-58d0fbc35d8b" height="auto" width="auto" alt="Install Heidi"/> 
+
+- We need to install HeidiSQL, which is an application that will allow us to make a connection to our database and configure it.
+- Double Click to install and accept the license agreement
+- Literally just hit next, next, next, next, then install. We dont have to change or do anything to the installation set-up.
+
+<img src="https://github.com/user-attachments/assets/b447210d-0857-46cd-82b3-9dabb6e48ea5" height="auto" width="auto" alt="Launch"/>
+
+- Once you've gotten here, make sure that the launch HeidiSQL box is checked, and hit Finish.
+
+<img src="https://github.com/user-attachments/assets/4649e2bf-1fec-40e2-bf66-28afbfaaf761" height="auto" width="auto" alt="skip"/>
+
+- We can just hit Skip here
+
+<img src="https://github.com/user-attachments/assets/83af01df-1ae5-4c39-96e2-36453ff379ca" height="auto" width="auto" alt="Lets go!"/> 
+
+- With this HeidiSQL, we are going to make a connection to our database, and then set up a database for osTicket to use.
+- Hit "New" in the bottom left corner
+
+
+<img src="https://github.com/user-attachments/assets/079f3b49-c7fe-45da-80e9-5c6519910bdb" height="auto" width="auto" alt="I AM ROOT"/>
+
+- After hitting new, this new unnamed session will appear. This is where we enter the password ROOT (yes, ROOT in all caps) that we established way earlier.
+- After you enter the password of ROOT, click on "Open".
+
+<img src="https://github.com/user-attachments/assets/15a05f07-78d1-4ef3-b3b7-383061319d24" height="auto" width="auto" alt="DophinZ"/>
+
+- Now that we have opened a connection to our database, we need to name the session.
+- We HAVE to name it EXACTLY osTicket
+- Right click on the Dolphin-looking icon that is labled as "Unnamed"
+  - Go down to Create New > Database and click on it.
+
+<img src="https://github.com/user-attachments/assets/fa3e868a-45ed-4439-bd55-ad0eaae59ef6" height="auto" width="auto" alt="osTicket"/>
+
+- This "Create Database" pop-up will appear and this is where you will enter "osTicket", exactly that way, in the name field.
+- Then hit OK.
+- Now we can go back to our browswer and finish setting up our osTicket. :)
+---
+
+
+<img src="https://github.com/user-attachments/assets/fea7c2c4-9084-44c7-8ad0-12301c8ef13c" height="auto" width="auto" alt="Culmination of events"/> 
+
+- Now we can fill in the Database settings with the things we just created.
+- enter "osTicket" as the MySQL Hostname
+- remember again (I'm sorry I must keep reminding, it is the hardest part of the lab, and the part that gets messed up the most) to enter "root" as the SQL Username and "ROOT" as the SQL password.
+- Then you are clear to hit Install Now! 
+
+<img src="https://github.com/user-attachments/assets/17077dac-3eac-4190-b61d-3796f1fde07d" height="auto" width="auto" alt="Congratulations!"/>
+
+## Congratulations! You have sucessfully installed osTicket! 
+ - Take note of the two links circled above:
+   - [Your help desk login page](http://localhost/osTicket/scp/login.php)
+   - [End Users osTicket](http://localhost/osTicket/)
+  
+We are going to use those links in the subsequent labs to follow now that we have sucessfully set-up, and installed osTicket on our Virtual Machiene.
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
-
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
 
