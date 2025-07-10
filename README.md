@@ -410,32 +410,55 @@ Once you are prompted with the following screen:
 
 - Additionally, refresh your osTicket Installer web browser and if you enabled the proper extensions there should only be two red X's below the Prerequisites heading.
 
-<img src="https://github.com/user-attachments/assets/b9fb76e9-4654-4fab-96f2-6d5fd873939f" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+## ⚠️ Please be advised, the following step involves renaming another file and it must be named exactly as shown ⚠️
+
+<img src="https://github.com/user-attachments/assets/b9fb76e9-4654-4fab-96f2-6d5fd873939f" height="auto" width="auto" alt="OST 1"/>
 
 - For the next step, open file explorer, and naviagte to, Windows C: > inetpub > wwwroot > osTicket > include
 
-- ⚠️ Please be advised, the following step involves renaming another folder and it must be named exactly as shown ⚠️
+<img src="https://github.com/user-attachments/assets/de4f7097-68c2-4768-b1c0-621cd5519bb2" height="auto" width="auto" alt="OST 2"/> 
+
+- Within the include folder, navigate to the PHP file named ost-sampleconfig.php
+ 
+<img src="https://github.com/user-attachments/assets/1cb1fa6b-7988-4875-a600-d47c9b142d38" height="auto" width="auto" alt="OST 3"/>
+
+- Now that you've found the file, rename it to exactly ost-config.php
+- This step is as simple as renaming the file, but the reason for the forewarning is that it must be renamed exactly to ost-config.php
+
+<img src="https://github.com/user-attachments/assets/4e421bbf-b9e8-46d3-8623-3053e686e86d" height="auto" width="auto" alt="OST 4"/>
+
+- Right click the file and navigate to properties
+
+<img src="https://github.com/user-attachments/assets/2baf6542-2dc1-4c9d-b35e-cc9d642f9805" height="auto" width="auto" alt="OST 5"/>
+
+- Once you click properties and the pop-up tab appears, navigate to security
+- Click on Advanced
+
+<img src="https://github.com/user-attachments/assets/6be1e134-94e1-440b-8d84-583b0a5ca871" height="auto" width="auto" alt="Strip Permissions"/>
+
+- Once you've reached the advanced security settings for the ost-config.php file, click on, "Disable inheritance" to strip away all the current permissions.
+
+<img src="https://github.com/user-attachments/assets/e6604fd7-43a8-401d-aef1-3767065bf521" height="auto" width="auto" alt="Confirm"/> 
+
+- Select "Remove all inherited permissions from this object"
+
+<img src="https://github.com/user-attachments/assets/0ca2d0cf-d791-46a1-953f-de5b45c25a92" height="auto" width="auto" alt="Add"/>
+
+- Once you have done so, you will notice (rather obviously) that there are no permission entries.
+- Click, "Add" at the bottom left conrner of the of the pop-up.
 
 
-<img src="https://github.com/user-attachments/assets/de4f7097-68c2-4768-b1c0-621cd5519bb2" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
+<img src="https://github.com/user-attachments/assets/099f98ee-c0b2-46c4-a279-5d1c853f6ad4" height="auto" width="auto" alt="everyone"/>
 
-- Naviage to the PHP file named
+- Once you've clicked Add you will see a spot in the top left corner to "Select a Principal"
+- Click on "Select a Principal"
+- This is not good to do in real life, but for the purpose of this lab, we are going to say "everyone"
+- After you've typed "everyone" into the text box, click on "Check Names" first, then click OK second.
+  - It does not show it in the image above but after you click Check Names "everyone" should get underlined and have a capital E. That is how you know it worked.
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/e6c4f24e-66c3-423a-b63d-7fbf2a4b277e" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
+- Now, check the box marked "Full Control" and click OK
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
