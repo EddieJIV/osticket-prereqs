@@ -2,35 +2,32 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+# osTicket - Prerequisites and Installation
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-<h2>Environments and Technologies Used</h2>
+## Environments and Technologies Used
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- Windows 10 OS
 
-<h2>Operating Systems Used </h2>
-
-- Windows 10 (21H2)
-
-<h2>Lab Prerequisites</h2>
+# Lab Prerequisites
 
 - PC or Laptop
 - Connection to the Internet
 - Microsoft Azure Subscription
 
-<h2>Installation Steps</h2>
+# Installation Steps:
 <strong><em> Assuming you have a Microsoft Azure account & subscription, please log in and proceed with the following:</em> </strong>
 
-<h2>Step 1: Create a new resource group in Microsoft Azure </h2>
-<img src="https://github.com/user-attachments/assets/2167d261-c2fd-4211-96ae-76be7f8c904b" height="100%" width="80%" alt="RG Create 1a"/>
+## Step 1: Create a new resource group in Microsoft Azure
+<img src="https://github.com/user-attachments/assets/2167d261-c2fd-4211-96ae-76be7f8c904b" height="700" width="700" alt="RG Create 1a"/>
 
  - Type, "Resource Group" in the Search bar, or navigate to the "Resource Group" section of Azure.
  - Click "Create" once you have navigated to the Resourse Group Home Page.
    
-<img src="https://github.com/user-attachments/assets/b8828d30-a118-4a5e-ad33-bb64bbff2ef6" height="auto" width="auto" alt="RG Create 1b"/>
+<img src="https://github.com/user-attachments/assets/b8828d30-a118-4a5e-ad33-bb64bbff2ef6" height="700" width="700" alt="RG Create 1b"/>
 
   
 You will then be prompted to name the Resource Group, and Select the region of that Resource group. 
@@ -50,15 +47,13 @@ Congratulations!
 
 <h2>Step 2: Creating your Virtual Machine</h2>
 
-  <img src="https://github.com/user-attachments/assets/cb002a5d-5533-4af2-ab18-ec50e63577dd" height="auto" width="auto" alt="VM Create 1"/>
+  <img src="https://github.com/user-attachments/assets/cb002a5d-5533-4af2-ab18-ec50e63577dd" height="700" width="700" alt="VM Create 1"/>
   
   - Type, "Virtual Machine" in the Search bar, or navigate to the "Virtual Machine" section of Azure.
   - Click "Create"
   - Select the top option "Virtual Machine".
 
-<p>
-<img src="https://github.com/user-attachments/assets/86b772bf-dced-470d-9ce4-dc1f68fb0013" height="auto" width="auto" alt="VM Create 2"/>
-</p>
+<img src="https://github.com/user-attachments/assets/86b772bf-dced-470d-9ce4-dc1f68fb0013" height="700" width="700" alt="VM Create 2"/>
 
 You will be prompted to select your Resource Group, name your Virtual Machine, and select the region of the machine. 
 
@@ -72,7 +67,7 @@ You will be prompted to select your Resource Group, name your Virtual Machine, a
 
 <p> Moving down along: 
   <p>
-<img src="https://github.com/user-attachments/assets/af275a44-b058-43ee-af50-0d4a6068d984" height="auto" width="auto" alt="VM Create 3"/>
+<img src="https://github.com/user-attachments/assets/af275a44-b058-43ee-af50-0d4a6068d984" height="700" width="700" alt="VM Create 3"/>
 </p>
 
  - Select the image the VM will use.
@@ -83,7 +78,7 @@ You will be prompted to select your Resource Group, name your Virtual Machine, a
  - Do not worry about the VM Architecture, or checking the other two boxes (as seen above)
 
 <p> Continuing down: <p/>
-<p></p><img src="https://github.com/user-attachments/assets/e4f02ad8-9258-490f-900a-e113cf07741a" height="auto" width="auto" alt="VM Create 4"/><p/>
+<p></p><img src="https://github.com/user-attachments/assets/e4f02ad8-9258-490f-900a-e113cf07741a" height="700" width="700" alt="VM Create 4"/><p/>
 
 - Create your Administrator username and password for this VM.
    - For this lab, I have picked a username of "labuser" with a password of "Cyberlab123!" 
@@ -92,7 +87,7 @@ You will be prompted to select your Resource Group, name your Virtual Machine, a
 - You do **not** have to click Next: Disks, simply click Review + create!
 
 <p>
-<img src="https://github.com/user-attachments/assets/8df602eb-553e-4076-abed-f844aea16c5d" height="auto" width="auto" alt="VM Create Final"/>
+<img src="https://github.com/user-attachments/assets/8df602eb-553e-4076-abed-f844aea16c5d" height="700" width="700" alt="VM Create Final"/>
 </p>
 
 - Once you see that your VM is validated, review your VM, make sure everything looks correct in the Subscription, Resource Group, VM-Name, and Region section.
@@ -105,16 +100,16 @@ At this point, we have completed the first two major steps of this lab by creati
 <h2>Step 3: Access VM using Remote Desktop Connection: </h2>
 
 
-<img src="https://github.com/user-attachments/assets/fd114353-8573-4c68-857e-d853d156b0ea" height="auto" width="auto" alt="Obtain IP"/>
+<img src="https://github.com/user-attachments/assets/fd114353-8573-4c68-857e-d853d156b0ea" height="700" width="700" alt="Obtain IP"/>
 
 - Obtain the Public IP Address of your VM from its home page within Azure.
 - Copy the IP Address to your clipboard
 
-<img src="https://github.com/user-attachments/assets/73f3f209-a75f-4ed4-a9a0-04175d1ae723" height="auto" width="auto" alt="RDP"/>
+<img src="https://github.com/user-attachments/assets/73f3f209-a75f-4ed4-a9a0-04175d1ae723" height="700" width="700" alt="RDP"/>
 
 - Where it says, "Computer" paste the public IP address of your VM and click, "Connect".
 
-<img src="https://github.com/user-attachments/assets/a6b90641-cf35-4329-9a71-cba66416997a" height="auto" width="auto" alt="login"/>
+<img src="https://github.com/user-attachments/assets/a6b90641-cf35-4329-9a71-cba66416997a" height="700" width="700" alt="login"/>
 
 - Enter the Administrator Account login information you created earlier while setting up your VM and hit OK!
 
