@@ -537,10 +537,12 @@ Once you are prompted with the following screen:
 
 ## Congratulations! You have sucessfully installed osTicket! 
 This effectively concludes the installation of osTicket lab.
- - Take note of the two links circled above:
+ - Take note of the two links circled above for the subsequest labs:
    - [Your help desk login page](http://localhost/osTicket/scp/login.php)
    - [End Users osTicket](http://localhost/osTicket/)
   
-We are going to use those links in the subsequent labs to follow now that we have sucessfully set-up, and installed osTicket on our Virtual Machiene. The journey doesn't end here—it's just the beginning of delivering exceptional support experiences!
+## Conclusion
+
+Most companies use some form of a ticketing system in their every day operations. This project gave me the opportunity to experince a sample of what all is required to simply load a web page you might use at work. We are going to use those links in the subsequent labs to follow now that we have sucessfully set-up, and installed osTicket on our Virtual Machiene. The journey doesn't end here—it's just the beginning of delivering exceptional support experiences!
 
 
