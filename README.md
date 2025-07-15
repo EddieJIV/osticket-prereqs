@@ -536,28 +536,11 @@ Once you are prompted with the following screen:
 <img src="https://github.com/user-attachments/assets/17077dac-3eac-4190-b61d-3796f1fde07d" height="auto" width="auto" alt="Congratulations!"/>
 
 ## Congratulations! You have sucessfully installed osTicket! 
+This effectively concludes the installation of osTicket lab.
  - Take note of the two links circled above:
    - [Your help desk login page](http://localhost/osTicket/scp/login.php)
    - [End Users osTicket](http://localhost/osTicket/)
   
-We are going to use those links in the subsequent labs to follow now that we have sucessfully set-up, and installed osTicket on our Virtual Machiene.
+We are going to use those links in the subsequent labs to follow now that we have sucessfully set-up, and installed osTicket on our Virtual Machiene. The journey doesn't end here—it's just the beginning of delivering exceptional support experiences!
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/>
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="auto" width="auto" alt="Disk Sanitization Steps"/> 
