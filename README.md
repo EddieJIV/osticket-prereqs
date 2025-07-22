@@ -10,7 +10,7 @@
 - Microsoft Azure (Virtual Machines/Cloud Compute)
 - Remote Desktop Protocol
 - Internet Information Services (IIS)
-- Windows 10 os
+- Windows 10 OS
 
 # Lab Prerequisites
 
@@ -19,7 +19,7 @@
 - Microsoft Azure Subscription
 
 # Installation Steps:
-<strong><em> Assuming you have a Microsoft Azure account & subscription, please log in and proceed with the following:</em> </strong>
+*Please log in to your Azure account and proceed with the following:*
 
 ## Step 1: Create a new resource group in Microsoft Azure
 <img src="https://github.com/user-attachments/assets/2167d261-c2fd-4211-96ae-76be7f8c904b" height="700" width="700" alt="RG Create 1a"/>
