@@ -543,6 +543,12 @@ This effectively concludes the installation of osTicket lab.
   
 ## Conclusion
 
-Most companies use some form of a ticketing system in their every day operations. This project gave me the opportunity to experince a sample of what all is required to simply load a web page you might use at work. We are going to use those links in the subsequent labs to follow now that we have sucessfully set-up, and installed osTicket on our Virtual Machiene. The journey doesn't end here—it's just the beginning of delivering exceptional support experiences!
+In this lab, we successfully installed and configured the osTicket help desk ticketing system on a virtual machine hosted in Microsoft Azure. 
+
+This process involved creating a resource group and virtual machine, accessing the VM via Remote Desktop Connection, and setting up the necessary dependencies including Internet Information Services (IIS), PHP, and MySQL. 
+
+We also learned to manage file permissions and configure database settings, which are critical tasks in IT support.
+
+Now, the journey of developing a strong foundation for real-world IT skills and fundamentals continues! With each step bringing new challenges and opportunities for growth; I hope you'll join me in my next lab where we begin to configure our newly installed osTicket!
 
 
