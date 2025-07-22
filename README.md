@@ -3,14 +3,14 @@
 </p>
 
 # osTicket - Prerequisites and Installation
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+*This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.*
 
 # Environments and Technologies Used
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remote Desktop Connection
 - Internet Information Services (IIS)
-- Windows 10 OS
+- Windows 10 os
 
 # Lab Prerequisites
 
@@ -32,9 +32,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
 You will then be prompted to name the Resource Group, and Select the region of that Resource group. 
   
-- We will name the resource group, "osTicket"
+- We will name the resource group, "osTicket".
 - Make the region that it is in local to you. I am selecting <strong>(US) East US 2</strong> but choose the region local to you.
-- Click "Review & Create"
+- Click "Review & Create".
   
 Following this, you will be prompted to review your new Resource Group. 
   - Make sure that it is named properly and in the correct region.
@@ -81,9 +81,9 @@ You will be prompted to select your Resource Group, name your Virtual Machine, a
 <p></p><img src="https://github.com/user-attachments/assets/e4f02ad8-9258-490f-900a-e113cf07741a" height="700" width="700" alt="VM Create 4"/><p/>
 
 - Create your Administrator username and password for this VM.
-   - For this lab, I have picked a username of "labuser" with a password of "Cyberlab123!" 
+   - For this lab, I have picked a username of "labuser" with a password of "Cyberlab123!". 
 - Leave the Inbound Port Rule Section alone.
-- Check the licensing box
+- Check the licensing box.
 - You do **not** have to click Next: Disks, simply click Review + create!
 
 <p>
@@ -103,7 +103,7 @@ At this point, we have completed the first two major steps of this lab by creati
 <img src="https://github.com/user-attachments/assets/fd114353-8573-4c68-857e-d853d156b0ea" height="700" width="700" alt="Obtain IP"/>
 
 - Obtain the Public IP Address of your VM from its home page within Azure.
-- Copy the IP Address to your clipboard
+- Copy the IP Address to your clipboard.
 
 <img src="https://github.com/user-attachments/assets/73f3f209-a75f-4ed4-a9a0-04175d1ae723" height="700" width="700" alt="RDP"/>
 
@@ -124,7 +124,7 @@ At this point, we have completed the first two major steps of this lab by creati
 
 - Once you've gotten into your VM, copy the osTicket Installation Files link below, and paste it into the Microsoft Edge browser. This will take you to the zip file containing what we need to install osTicket to the VM.
   - [osTicket Installation Files](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)
-  - Click "Download anyway"
+  - Click "Download anyway".
 
 <img src= "https://github.com/user-attachments/assets/032397b7-52ac-427b-a4c5-6f2aa8fc9853" height="auto" width="auto" alt="ZIP"/>
 
@@ -148,18 +148,18 @@ At this point, we have completed the first two major steps of this lab by creati
 
 <img src="https://github.com/user-attachments/assets/fb806ab6-5659-487b-8287-4bc82193253e" height="auto" width="auto" alt="Control Panel 1"/>
 
-- Open up Control Panel and Click on "Programs"
-- Then, click on, "Programs and Features"
-- Once you've navigated to Control Panel > Programs > Programs and Features, Click on "Turn Windows features on or off"
+- Open up Control Panel and Click on "Programs".
+- Then, click on, "Programs and Features".
+- Once you've navigated to Control Panel > Programs > Programs and Features, Click on "Turn Windows features on or off".
 
 <img src="https://github.com/user-attachments/assets/e03dfba5-8887-4e65-a2b7-67f276cbda60" height="auto" width="auto" alt="IIS Enabled"/>
 
-- Once you've clicked on "Turn Windows features on or off" within Programs and Features, find Internet Information Services
-  - Check the box so it is black, as seen above, and click the box to the left of that to expand it.  
+- Once you've clicked on, "Turn Windows features on or off" within Programs and Features, find Internet Information Services.
+  - Check the box so it is black, as seen above, and click the little box to the left of the now checked box to expand it.  
 
 <img src="https://github.com/user-attachments/assets/ed3fae94-4606-4bdc-ad0b-fdee0ee6e459" height="auto" width="auto" alt="CGI"/>
 
- - We need to install CGI, a dependency that OSticket needs for part of the web server, within World Wide Web Services
+ - We need to install CGI, a dependency that osTicket needs for part of the web server, within World Wide Web Services.
  - Click "OK" once you've navigated to World Wide Web Services > Application Development Features > CGI and Check-marked the file folder named, "CGI"
    - It will now install the web server. Give it a moment to do so.
 
@@ -234,17 +234,17 @@ At this point, we have completed the first two major steps of this lab by creati
 
 <img src="https://github.com/user-attachments/assets/cbaee797-2eb9-4929-83d6-be3aa4f245d3" height="auto" width="auto" alt="Step 10"/> 
 
-- Double click the file folder named, "mysql-5.5.62-win32"
-- Hit "Next"
+- Double click the file folder named, "mysql-5.5.62-win32".
+- Hit "Next".
 
 <img src="https://github.com/user-attachments/assets/15649a9c-9fe5-497b-987c-ef478b724947" height="auto" width="auto" alt="10.2"/>
 
-- Accept the End-User License Agreement by checking the box and hit "Next"
+- Accept the End-User License Agreement by checking the box and hit "Next".
 
 <img src="https://github.com/user-attachments/assets/306361b5-186a-42fb-865e-c2efd15bee65" height="auto" width="auto" alt="10.3"/>
 
-- For our installation, we want to do a "Typical Installation"
-- So, make sure Typical is selected and click, "Next"
+- For our installation, we want to do a "Typical Installation".
+- So, make sure Typical is selected and click, "Next".
 - Once you are brought to the next page, click on, "Install".
 
 <img src="https://github.com/user-attachments/assets/e0c9bbd1-4874-4952-9865-de4ed309b323" height="auto" width="auto" alt="10.4"/>
@@ -314,7 +314,7 @@ Once you are prompted with the following screen:
 
 <img src="https://github.com/user-attachments/assets/4ea2fa49-456a-4293-8d5b-b03395666a20" height="auto" width="auto" alt="Start Server"/>
 
-- Rick click on the osTicket-VM again and you will now notice where it was greyed out before, you can now click on "Start"
+- Rick click on the osTicket-VM again and you will now notice where it was greyed out before, you can now click on "Start".
 
 ## Step 12: Installing osTicket-v1.15.8 
 
@@ -326,7 +326,7 @@ Once you are prompted with the following screen:
 
 <img src="https://github.com/user-attachments/assets/8e29babf-d3e7-4e6a-85d1-988b5d0282e1" height="auto" width="auto" alt="Unzip location"/>
 
-- From here you can just go ahead and click on "Extract"
+- From here you can just go ahead and click on "Extract".
   - Make sure the, "Show extracted files when completed" check box is click as we will be using it for the next step.
   - We are extracting the files straight into the folder so you will now just have an unzipped version of osTicket-v1.15.8 within your installation files
 - Give it a moment because there are alot of files to copy.
@@ -337,13 +337,13 @@ Once you are prompted with the following screen:
 <img src="https://github.com/user-attachments/assets/0c20084b-e599-4692-8930-76f79104062e" height="auto" width="auto" alt="Transfer prep"/>
 
 - Side-by-side your file exploer pages should look like this.
-- From here, we are going to left click and drag the folder named "upload" ino the wwwroot file
+- From here, we are going to left click and drag the folder named "upload" ino the wwwroot file.
 
 
 <img src="https://github.com/user-attachments/assets/339e4c70-72fd-4e13-8170-ad3c080d5e95" height="auto" width="auto" alt="upload transfer"/>
 
 - Now that the "upload" folder is moved to the wwwroot file we are going to right click and rename the folder to "osTicket"
-- ⚠️Please note that when you rename the upload foler in the wwwroot folder it MUST be named exactly osTicket⚠️
+#### ⚠️Please note that when you rename the upload foler in the wwwroot folder it MUST be named exactly osTicket⚠️
 
 <img src="https://github.com/user-attachments/assets/8fae250a-058e-4b0f-b042-9089464ab1c9" height="auto" width="auto" alt="Disk Sanitization Steps"/>
 
@@ -372,7 +372,7 @@ Once you are prompted with the following screen:
 
 <img src="https://github.com/user-attachments/assets/ce7eae72-71d3-4c4c-a3dc-74956e94b763" height="auto" width="auto" alt="OsTicket web browswer & IIS manager"/>
 
-- If the steps have been followed properly thus far then when you click on, "Browse *:80" this is what you will be directed to on your web browswer.
+- If the steps have been followed properly thus far then when you click on, "Browse *:80" this is what you will be directed to on your web browser.
 - Note that below the Prerequisites some of the boxes are not checked and are red X's.
 - We are going to go back into our osTicket Home wothin the IIS manager (as seen on the right hand side of the window) to enable some of these features.
 
