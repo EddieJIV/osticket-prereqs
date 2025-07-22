@@ -7,8 +7,8 @@
 
 # Environments and Technologies Used
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop Connection
+- Microsoft Azure (Virtual Machines/Cloud Compute)
+- Remote Desktop Protocol
 - Internet Information Services (IIS)
 - Windows 10 os
 
